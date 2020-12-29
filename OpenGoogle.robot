@@ -11,20 +11,12 @@ ${googleURL}  http://www.google.com
 Open Web
     Open Browser  ${googleURL}  ${Browser}
 
-Find and input text
-    Input Text  name:q  Mobile
-
-Click btn
-    click Button  btnK
-
 Wait to show
-    Wait Until Page Contains     www.siamphone.com
+    Wait Until Page Contains     www.google.com
 
 *** Test Cases ***
 TC_XXXX_001 - Test Open Google
     Open Web
-    Find and input text
-    Click btn
     Wait to show  
 
 
